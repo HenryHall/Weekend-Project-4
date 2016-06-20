@@ -1,0 +1,89 @@
+h1 {
+  color: #DDDDDD;
+  margin: 5px;
+}
+
+button {
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p {
+  margin: 5px;
+}
+
+#casing {
+  height: 500px;
+  width: 400px;
+  background-color: #999999;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  box-shadow: inset 5px 5px 50px;
+}
+
+#submitTask {
+  color: #FFFFFF;
+  background-color: #404090;
+}
+
+#actionList {
+  background-color: #FFFFFF;
+  margin: 20px;
+  height: 70%;
+  overflow: auto;
+  padding: 0px;
+  color: #FFFFFF;
+  border: 2px solid black;
+}
+
+li {
+  list-style: none;
+  border: 1px solid black;
+}
+
+.false {
+  background-color: #DD9090;
+}
+
+.true {
+  background-color: #90DD90;
+}
+
+#createTask {
+  width: 90%;
+  height: 10%;
+  background-color: #404099;
+  color: #FFFFFF;
+  font-size: 2em;
+}
+
+#createTaskDiv {
+  height: 10%;
+}
+
+#taskIn {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.infoTask {
+  font-size: 1.5em;
+}
+
+.deleteTask, .completeTask {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.deleteTask {
+  background-color: #994040;
+}
+
+.completeTask {
+  background-color: #409940;
+}
